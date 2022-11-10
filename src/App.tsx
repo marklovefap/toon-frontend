@@ -12,8 +12,8 @@ import ErrorPage from './pages/ErrorPage';
 import { BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
 
 const link = createHttpLink({
-  uri: "http://localhost:3000/graphql",
-  // uri: "https://curriculum-backend.onrender.com/graphql",
+  // uri: "http://localhost:3000/graphql",
+  uri: "https://projectadmin-production.up.railway.app/graphql",
   credentials: 'include'
 });
 

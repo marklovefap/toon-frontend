@@ -56,8 +56,8 @@ function Login(){
                     </div>
                 </div>
                 {   show.studentLogin &&
-                    <a href='http://localhost:3000/auth/cmu'>
-                    {/* <a href='https://curriculum-backend.onrender.com/auth/cmu'> */}
+                    // <a href='http://localhost:3000/auth/cmu'>
+                    <a href='https://projectadmin-production.up.railway.app/auth/cmu'>
                         <button className='btn-student'>Login with CMU account</button>
                     </a>
                 }
